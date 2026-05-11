@@ -113,10 +113,10 @@ case $choose1 in
 
 
     3) 
-            # Dizini doğru tanımla (Başında $ olmayacak)
+           
         WALLPAPER_DIR="/home/coolkie/background"
 
-        # Dizine git, gidemezsen hata ver ve dur
+       
         if ! cd "$WALLPAPER_DIR"; then
             echo "Hata: Klasör bulunamadı!"
             exit 1
